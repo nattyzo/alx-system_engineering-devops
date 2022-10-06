@@ -1,2 +1,2 @@
 #!/bin/bash
-find /your/path/here -type d chmod u+x,g+x,o+x {} \
+find /your/path/here -type d -exec chmod u+x,g+x,o+x {} \
